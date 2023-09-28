@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetc y Peticiones</title>
+    <script asyn defer src="./Js/ejercicioFetch.js"></script>
+    <link rel="stylesheet" href="./Styles/ejercicioFetch.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="container row">
+            <label for="poke-name">Pokemon (NAME/ID)</label>
+            <input id='poke-name'type="text" name="poke-name" value="">
+        </div>
+
+        <div class='container row'>
+                <button id='previous-btn' class="btn primary">Previous</button>
+                <button id='get-btn' class="btn primary">Get Pokemon</button>
+                <button id='next-btn' class="btn primary">Next</button>
+        </div>
+    </div>
+
+    <div class="card container">
+        <h2 id='name'>NAME</h2>
+        <h3 id='id'>ID</h3>
+        <p id='weight'>WEIGHT</p>
+        <img id="image" src="" alt="Pokemon Image">
+        
+    </div>
+
+</body>
+</html>
